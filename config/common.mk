@@ -182,9 +182,6 @@ endif
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/pixys/overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pixys/overlay/common
 
-# rro_overlays
-$(call inherit-product, vendor/pixys/config/rro_overlays.mk)
-
 # Pixel Framework
 $(call inherit-product, vendor/pixel-framework/config.mk)
 
